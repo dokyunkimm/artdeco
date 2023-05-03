@@ -1,0 +1,27 @@
+.fadeUp {
+	opacity:0;
+	transform: translateY(50px);
+	transition: opacity 0.5s, transform 0.5s;
+}
+.fadeUp.active {
+	opacity: 1;
+	transform: translateY(0);
+}
+.fadeRight {
+	opacity:0;
+	transform: translateX(50px);
+	transition: opacity 0.5s, transform 0.5s;
+}
+.fadeRight.active {
+	opacity: 1;
+	transform: translateX(0);
+}
+.fadeLeft {
+	opacity:0;
+	transform: translateX(-50px);
+	transition: opacity 0.5s, transform 0.5s;
+}
+.fadeLeft.active {
+	opacity: 1;
+	transform: translateX(0);
+}
